@@ -1,0 +1,11 @@
+**/*.spec.js
+.editorconfig
+.eslintignore
+.eslintrc.js
+.gitattributes
+.github
+.gitignore
+.npmignore
+coverage
+jest.config.js
+jsconfig.json
