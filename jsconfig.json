@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"checkJs": true,
+		"experimentalDecorators": true,
+		"module": "CommonJS",
+		"target": "ES2022"
+	},
+	"exclude": ["coverage", "node_modules"]
+}
