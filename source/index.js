@@ -48,7 +48,7 @@ class Server {
 			client.close();
 		}
 		this.#socket.close();
-		this.#log("info", "Closed");
+		this.#log?.("info", "Closed");
 	};
 
 	#handleConnection = (socket, request) => {
@@ -57,7 +57,7 @@ class Server {
 	};
 
 	#handleError = (error) => {
-		this.#log("error", error);
+		this.#log?.("error", error);
 	};
 
 	#handleStart = () => {
