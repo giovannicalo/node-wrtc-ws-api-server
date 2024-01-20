@@ -4,13 +4,13 @@ jobs:
     runs-on: ${{matrix.os}}
     steps:
     - name: Install Node
-      uses: actions/setup-node@v2.3.0
+      uses: actions/setup-node@v4.0.1
       with:
-        node-version: 19.0.0
+        node-version: 21.6.0
     - name: Configure Git
       run: git config --global core.autocrlf input
     - name: Checkout code
-      uses: actions/checkout@v2.3.4
+      uses: actions/checkout@v4.1.1
     - name: Install dependencies
       run: npm install --no-fund --no-save
     - name: Lint
@@ -19,7 +19,7 @@ jobs:
       run: npm test
     - if: matrix.os == 'ubuntu-22.04'
       name: Test coverage
-      uses: coverallsapp/github-action@1.1.3
+      uses: coverallsapp/github-action@v2.2.3
       with:
         github-token: ${{secrets.GITHUB_TOKEN}}
     strategy:
