@@ -20,7 +20,7 @@
 		"jest": "^29.7.0"
 	},
 	"engines": {
-		"node": ">=21.6.0"
+		"node": ">=22.3.0"
 	},
 	"homepage": "https://github.com/giovannicalo/node-wrtc-ws-api-server",
 	"keywords": ["api", "server", "signaling", "webrtc", "websocket", "wrtc", "ws"],
