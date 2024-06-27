@@ -15,7 +15,7 @@
 	},
 	"description": "WebRTC WebSocket Signaling API Server",
 	"devDependencies": {
-		"eslint": "^8.56.0",
+		"eslint": "^8.57.0",
 		"eslint-config-giovanni": "giovannicalo/eslint-config",
 		"jest": "^29.7.0"
 	},
