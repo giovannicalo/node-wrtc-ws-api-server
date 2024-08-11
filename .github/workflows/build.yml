@@ -6,7 +6,7 @@ jobs:
     - name: Install Node
       uses: actions/setup-node@v4.0.1
       with:
-        node-version: 22.3.0
+        node-version: 22.6.0
     - name: Configure Git
       run: git config --global core.autocrlf input
     - name: Checkout code
