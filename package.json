@@ -8,14 +8,14 @@
 		"url": "https://github.com/giovannicalo/node-wrtc-ws-api-server/issues"
 	},
 	"dependencies": {
-		"bufferutil": "^4.0.8",
-		"utf-8-validate": "^6.0.4",
-		"uuid": "^10.0.0",
-		"ws": "^8.18.0"
+		"bufferutil": "^4.0.9",
+		"utf-8-validate": "^6.0.5",
+		"uuid": "^11.1.0",
+		"ws": "^8.18.1"
 	},
 	"description": "WebRTC WebSocket Signaling API Server",
 	"devDependencies": {
-		"eslint": "^8.57.0",
+		"eslint": "^9.25.1",
 		"eslint-config-giovanni": "giovannicalo/eslint-config",
 		"jest": "^29.7.0"
 	},
