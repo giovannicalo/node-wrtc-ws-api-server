@@ -17,7 +17,7 @@ jobs:
       run: npm run lint
     - name: Test
       run: npm test
-    - if: matrix.os == 'ubuntu-22.04'
+    - if: matrix.os == 'ubuntu-24.04'
       name: Test coverage
       uses: coverallsapp/github-action@v2.2.3
       with:
@@ -25,9 +25,9 @@ jobs:
     strategy:
       matrix:
         os:
-        - macos-12
-        - ubuntu-22.04
-        - windows-2022
+        - macos-15
+        - ubuntu-24.04
+        - windows-2025
 name: Build
 on:
 - pull_request
